@@ -1,13 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    height        : 100%;
+    font-family   : Arial, Helvetica;
+    letter-spacing: 0.03em;
+    animation     : scroll 70s linear infinite;
+    background    : url(https://preview.redd.it/iwwoafxly0o61.png?auto=webp&s=831a723b852ba486ce099667f2a29fe21d3f9286);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+    font-family            : "Montserrat";
+    font-weight            : bold;
+    background-image       : url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size        : cover;
+    color                  : transparent;
+    -moz-background-clip   : text;
+    -webkit-background-clip: text;
+    text-transform         : uppercase;
+}
+
+h2 {
+    color: white;
+}
+
+.card-body {
+    animation        : scroll 70s linear infinite;
+    background       : url(https://images.hdqwalls.com/download/moon-5k-9e-1366x768.jpg);
+}
+
+@keyframes scroll {
+    100% {
+        background-position: 0px -3000px;
+    }
 }
